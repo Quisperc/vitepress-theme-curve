@@ -152,6 +152,11 @@ export const themeConfig = {
           name: "主站",
           url: "/",
         },
+        {
+          icon: "/images/logo/logo.webp",
+          name: "主页",
+          url: "https://www.aoxc.top/",
+        },
       ],
     },
     {
@@ -297,7 +302,7 @@ export const themeConfig = {
     enable: true,
     // 评论系统选择
     // artalk / twikoo
-    type: "artalk",
+    type: "twikoo",
     // artalk
     // https://artalk.js.org/
     artalk: {
