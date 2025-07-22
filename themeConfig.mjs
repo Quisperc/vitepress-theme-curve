@@ -168,7 +168,7 @@ export const themeConfig = {
           url: "https://status.aoxc.top/",
         },
         {
-          icon: "https://bucket.aoxc.top/picgo/Music.ico",
+          icon: "https://bucket.aoxc.top/picgo/Music.svg",
           name: "音乐",
           url: "https://status.aoxc.top/",
         },
@@ -281,8 +281,8 @@ export const themeConfig = {
         items: [
           { text: "站点状态", link: "https://status.aoxc.top/", newTab: true },
           { text: "在线聊天", link: "https://chat.swjcq.top/", newTab: true },
-          { text: "音乐", link: "https://meting-api.aoxc.top/", newTab: true },
           { text: "站点订阅", link: "https://blog.aoxc.top/rss.xml", newTab: true },
+          { text: "音乐", link: "https://meting-api.aoxc.top/", newTab: true },
           {
             text: "反馈与建议",
             link: "https://icn0gpyxt811.feishu.cn/share/base/form/shrcngfYoPq2vtXjApboeRe4H0u",
@@ -294,7 +294,7 @@ export const themeConfig = {
   },
   // 评论
   comment: {
-    enable: false,
+    enable: true,
     // 评论系统选择
     // artalk / twikoo
     type: "artalk",
@@ -309,9 +309,9 @@ export const themeConfig = {
     twikoo: {
       // 必填，若不想使用 CDN，可以使用 pnpm add twikoo 安装并引入
       js: "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/twikoo/1.6.39/twikoo.all.min.js",
-      envId: "",
+      envId: "https://twikoo.aoxc.top/.netlify/functions/twikoo",
       // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
-      region: "ap-shanghai",
+      region: "",
       lang: "zh-CN",
     },
   },
