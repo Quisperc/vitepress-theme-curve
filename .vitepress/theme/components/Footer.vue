@@ -11,12 +11,12 @@
           {{ theme.icp }}
         </a>
         <a
-          class="upyun link"
-          href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
+          class="EdgeOne link"
+          href="https://cloud.tencent.com/product/teo"
           target="_blank"
         >
-          <i class="iconfont icon-upyun" />
-          又拍云
+          <i class="iconfont icon-EdgeOne" />
+          腾讯EdgeOne
         </a>
       </div>
       <div class="meta">
@@ -25,9 +25,10 @@
           <span class="name">VitePress</span>
         </a>
         <a class="theme link" href="https://github.com/imsyy/vitepress-theme-curve" target="_blank">
+          <span class="by">Modified form</span>
           <span class="name">主题</span>
         </a>
-        <a class="rss link" href="https://blog.imsyy.top/rss.xml" target="_blank">
+        <a class="rss link" href="https://blog.aoxc.top/rss.xml" target="_blank">
           <i class="iconfont icon-rss" />
           <span class="name">订阅</span>
         </a>
@@ -115,7 +116,7 @@ onBeforeUnmount(() => {
           opacity: 0.6;
         }
       }
-      .upyun {
+      .EdgeOne {
         .iconfont {
           font-size: 20px;
           font-weight: normal;

@@ -3,7 +3,7 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "Quisper",
     // 站点描述
     description: "Hello World",
     // 站点logo
@@ -158,13 +158,18 @@ export const themeConfig = {
       name: "服务",
       list: [
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
+          icon: "https://bucket.aoxc.top/picgo/chat-Comment.svg",
           name: "聊天室",
           url: "https://chat.swjcq.top/",
         },
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+          icon: "https://bucket.aoxc.top/picgo/sitestatus-favicon.ico",
           name: "站点监测",
+          url: "https://status.aoxc.top/",
+        },
+        {
+          icon: "https://bucket.aoxc.top/picgo/Music.ico",
+          name: "音乐",
           url: "https://status.aoxc.top/",
         },
       ],
@@ -183,9 +188,14 @@ export const themeConfig = {
           url: "https://github.com/Quisperc/home",
         },
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+          icon: "https://bucket.aoxc.top/picgo/sitestatus-favicon.ico",
           name: "site-status",
           url: "https://github.com/Quisperc/site-status",
+        },
+        {
+          icon: "/images/logo/logo.webp",
+          name: "webchat",
+          url: "https://github.com/Quisperc/webchat",
         },
       ],
     },
@@ -244,6 +254,9 @@ export const themeConfig = {
         text: "项目",
         items: [
           { text: "Home", link: "https://github.com/Quisperc/home/", newTab: true },
+          { text: "Curve", link: "https://github.com/Quisperc/vitepress-theme-curve", newTab: true },
+          { text: "site-status", link: "https://github.com/Quisperc/site-status", newTab: true },
+          { text: "webchat", link: "https://github.com/Quisperc/webchat", newTab: true },
         ],
       },
       {
@@ -268,10 +281,11 @@ export const themeConfig = {
         items: [
           { text: "站点状态", link: "https://status.aoxc.top/", newTab: true },
           { text: "在线聊天", link: "https://chat.swjcq.top/", newTab: true },
+          { text: "音乐", link: "https://meting-api.aoxc.top/", newTab: true },
           { text: "站点订阅", link: "https://blog.aoxc.top/rss.xml", newTab: true },
           {
-            text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
+            text: "反馈与建议",
+            link: "https://icn0gpyxt811.feishu.cn/share/base/form/shrcngfYoPq2vtXjApboeRe4H0u",
             newTab: true,
           },
         ],
@@ -306,7 +320,7 @@ export const themeConfig = {
     // 站点简介
     hello: {
       enable: true,
-      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，其中大部分内容会侧重于<strong>前端开发</strong>。希望你可以在这里找到对你有用的知识和教程。",
+      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享。希望你可以在这里找到对你有用的知识和教程。",
     },
     // 目录
     toc: {
@@ -322,7 +336,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2025-02-17",
+        date: "2026-02-17",
       },
     },
     // 站点数据
@@ -346,7 +360,7 @@ export const themeConfig = {
   music: {
     enable: false,
     // url
-    url: "https://api-meting.example.com",
+    url: "https://meting-api.aoxc.top",
     // id
     id: 9379831714,
     // netease / tencent / kugou
@@ -365,9 +379,9 @@ export const themeConfig = {
   rewardData: {
     enable: true,
     // 微信二维码
-    wechat: "https://quisper.obs.cn-east-3.myhuaweicloud.com/picgo/fimg.jpg",
+    wechat: "https://bucket.aoxc.top/picgo/fimg.jpg",
     // 支付宝二维码
-    alipay: "https://quisper.obs.cn-east-3.myhuaweicloud.com/picgo/fimg.jpg",
+    alipay: "https://bucket.aoxc.top/picgo/fimg.jpg",
   },
   // 图片灯箱
   fancybox: {
