@@ -3,7 +3,7 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Quisper",
+    title: "朝暮小栈",
     // 站点描述
     description: "Hello World",
     // 站点logo
@@ -365,7 +365,7 @@ export const themeConfig = {
   music: {
     enable: true,
     // url
-    url: "https://meting-api.aoxc.top",
+    url: "https://meting-api.aoxc.top/api",
     // id
     id: 14018568989,
     // netease / tencent / kugou
@@ -376,9 +376,9 @@ export const themeConfig = {
   // 搜索
   // https://www.algolia.com/
   search: {
-    enable: false,
-    appId: "",
-    apiKey: "",
+    enable: true,
+    appId: "6DO6Q4MLYW",
+    apiKey: "53e8c21425cc5e6ab728d9c906f55114",
   },
   // 打赏
   rewardData: {
