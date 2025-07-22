@@ -14,10 +14,10 @@ export const themeConfig = {
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "Quisper",
       cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      email: "Quisper@foxmail.com",
+      link: "https://www.aoxc.top",
     },
   },
   // 备案信息
@@ -40,7 +40,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog.imsyy.top/rss.xml",
+          href: "https://blog.aoxc.top/rss.xml",
         },
       ],
       // 预载 CDN
@@ -152,11 +152,6 @@ export const themeConfig = {
           name: "主站",
           url: "/",
         },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
-        },
       ],
     },
     {
@@ -164,18 +159,13 @@ export const themeConfig = {
       list: [
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "起始页",
-          url: "https://nav.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "今日热榜",
-          url: "https://hot.imsyy.top/",
+          name: "聊天室",
+          url: "https://chat.swjcq.top/",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
           name: "站点监测",
-          url: "https://status.imsyy.top/",
+          url: "https://status.aoxc.top/",
         },
       ],
     },
@@ -185,32 +175,17 @@ export const themeConfig = {
         {
           icon: "/images/logo/logo.webp",
           name: "Curve",
-          url: "https://github.com/imsyy/vitepress-theme-curve",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
-          name: "SPlayer",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "Snavigation",
-          url: "https://github.com/imsyy/SPlayer",
+          url: "https://github.com/Quisperc/vitepress-theme-curve",
         },
         {
           icon: "/images/logo/logo.webp",
           name: "Home",
-          url: "https://github.com/imsyy/home",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "DailyHotApi",
-          url: "https://github.com/imsyy/DailyHotApi",
+          url: "https://github.com/Quisperc/home",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
           name: "site-status",
-          url: "https://github.com/imsyy/site-status",
+          url: "https://github.com/Quisperc/site-status",
         },
       ],
     },
@@ -239,27 +214,19 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
+        link: "mailto:Quisper@foxmail.top",
       },
       {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
-      },
-      {
-        icon: "telegram",
-        link: "https://t.me/bottom_user",
+        link: "https://www.github.com/Quisperc/",
       },
       {
         icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
+        link: "https://space.bilibili.com/440516569",
       },
       {
         icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
-      },
-      {
-        icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
+        link: "https://res.abeim.cn/api/qq/?qq=507678128",
       },
     ],
     // sitemap
@@ -276,10 +243,7 @@ export const themeConfig = {
       {
         text: "项目",
         items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
+          { text: "Home", link: "https://github.com/Quisperc/home/", newTab: true },
         ],
       },
       {
@@ -302,9 +266,9 @@ export const themeConfig = {
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
+          { text: "站点状态", link: "https://status.aoxc.top/", newTab: true },
+          { text: "在线聊天", link: "https://chat.swjcq.top/", newTab: true },
+          { text: "站点订阅", link: "https://blog.aoxc.top/rss.xml", newTab: true },
           {
             text: "反馈投诉",
             link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
@@ -358,7 +322,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2025-01-29",
+        date: "2025-02-17",
       },
     },
     // 站点数据
@@ -401,9 +365,9 @@ export const themeConfig = {
   rewardData: {
     enable: true,
     // 微信二维码
-    wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
+    wechat: "https://quisper.obs.cn-east-3.myhuaweicloud.com/picgo/fimg.jpg",
     // 支付宝二维码
-    alipay: "https://pic.efefee.cn/uploads/2024/04/07/661206631d3b5.webp",
+    alipay: "https://quisper.obs.cn-east-3.myhuaweicloud.com/picgo/fimg.jpg",
   },
   // 图片灯箱
   fancybox: {
