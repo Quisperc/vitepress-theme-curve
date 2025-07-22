@@ -299,7 +299,7 @@ export const themeConfig = {
   },
   // 评论
   comment: {
-    enable: true,
+    enable: false,
     // 评论系统选择
     // artalk / twikoo
     type: "twikoo",
@@ -363,11 +363,11 @@ export const themeConfig = {
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
-    enable: false,
+    enable: true,
     // url
     url: "https://meting-api.aoxc.top",
     // id
-    id: 9379831714,
+    id: 14018568989,
     // netease / tencent / kugou
     server: "netease",
     // playlist / album / song
