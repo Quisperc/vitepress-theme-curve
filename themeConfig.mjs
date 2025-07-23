@@ -217,9 +217,9 @@ export const themeConfig = {
       coverLayout: 'both',
       // 默认封面(随机展示)
       defaultCover: [
-        'https://example.com/1.avif',
-        'https://example.com/2.avif',
-        'https://example.com/3.avif'
+        'https://bucket.aoxc.top/picgo/fimg.jpg',
+        'https://bucket.aoxc.top/picgo/fimg.jpg',
+        'https://bucket.aoxc.top/picgo/logo.jpg'
       ]
     }
   },
