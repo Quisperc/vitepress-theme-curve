@@ -347,8 +347,16 @@ const rightMenuFunc = async (type) => {
         window.open(clickedTypeData.value?.href);
         break;
       case "copy-link":
-        const pageLink = theme.value.site + router.route.path;
-        if (pageLink) copyText(pageLink);
+        // const pageLink = theme.value.site + router.route.path;
+        // if (pageLink) copyText(pageLink);
+        // break;
+        // 修改后
+        const pageLink = theme.value?.siteMeta?.site + router.route.path;
+        if (!pageLink) {
+            $message.error("复制失败：无法获取页面地址");
+            return;
+        }
+        copyText(pageLink);
         break;
       case "input-paste":
         const text = await navigator.clipboard.readText();
