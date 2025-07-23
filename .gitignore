@@ -22,7 +22,10 @@ test.html
 
 !.vitepress/theme/assets/themeConfig.mjs
 
-posts/*
+# 无用文章页面
+garbage/*
+
+# 文章
 !posts/2024/1010.md
 
 # Editor directories and files
