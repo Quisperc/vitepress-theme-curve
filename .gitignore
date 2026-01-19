@@ -26,7 +26,6 @@ test.html
 garbage
 
 # 文章
-posts/*
 !posts/2024/1010.md
 
 # Editor directories and files

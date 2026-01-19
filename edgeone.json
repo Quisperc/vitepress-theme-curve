@@ -1,0 +1,6 @@
+{
+  "$schema": "https://edgeone.ai/schemas/edgeone.json",
+  "build": {
+    "output": ".vitepress/dist"
+  }
+}
