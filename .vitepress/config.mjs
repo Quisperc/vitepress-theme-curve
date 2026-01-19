@@ -116,6 +116,7 @@ export default withPwa(
             pure_funcs: ["console.log"],
           },
         },
+        chunkSizeWarningLimit: 1500,
       },
     },
     // PWA

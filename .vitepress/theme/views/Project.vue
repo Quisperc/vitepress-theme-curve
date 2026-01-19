@@ -1,7 +1,6 @@
 <template>
   <div class="project">
-    <Banner type="page" title="我的项目" desc="源于热爱开发优秀的作品" footer="写 BUG 小能手"
-      image="https://bucket.aoxc.top/picgo/logo.jpg">
+    <Banner type="page" title="我的项目" desc="源于热爱开发优秀的作品" footer="写 BUG 小能手" image="https://buc.civer.cn/picgo/logo.jpg">
       <template #footer-slot>
         <a class="to-github" href="https://github.com/Quisperc/" target="_blank">
           <i class="iconfont icon-github"></i>

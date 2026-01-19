@@ -9,7 +9,7 @@ export const themeConfig = {
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.aoxc.top",
+    site: "https://blog.civer.cn",
     // 语言
     lang: "zh-CN",
     // 作者
@@ -17,11 +17,13 @@ export const themeConfig = {
       name: "Quisper",
       cover: "/images/logo/logo.webp",
       email: "Quisper@foxmail.com",
-      link: "https://www.aoxc.top",
+      link: "https://www.civer.cn",
     },
   },
   // 备案信息
-  icp: "",
+  icp: "蜀ICP备2025159968号-1",
+  ga: "川公网安备51012402001520号",
+  gacode: 51012402001520,
   // 建站日期
   since: "2025-07-20",
   // 每页文章数据
@@ -40,7 +42,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog.aoxc.top/rss.xml",
+          href: "https://blog.civer.cn/rss.xml",
         },
       ],
       // 预载 CDN
@@ -155,7 +157,7 @@ export const themeConfig = {
         {
           icon: "/images/logo/logo.webp",
           name: "主页",
-          url: "https://www.aoxc.top/",
+          url: "https://www.civer.cn/",
         },
       ],
     },
@@ -163,19 +165,14 @@ export const themeConfig = {
       name: "服务",
       list: [
         {
-          icon: "https://bucket.aoxc.top/picgo/chat-Comment.svg",
-          name: "聊天室",
-          url: "https://chat.swjcq.top/",
-        },
-        {
-          icon: "https://bucket.aoxc.top/picgo/sitestatus-favicon.ico",
+          icon: "https://buc.civer.cn/picgo/sitestatus-favicon.ico",
           name: "站点监测",
-          url: "https://status.aoxc.top/",
+          url: "https://status.civer.cn/",
         },
         {
-          icon: "https://bucket.aoxc.top/picgo/Music.svg",
+          icon: "https://buc.civer.cn/picgo/Music.svg",
           name: "音乐",
-          url: "https://status.aoxc.top/",
+          url: "https://meting-api.civer.cn/",
         },
       ],
     },
@@ -193,7 +190,7 @@ export const themeConfig = {
           url: "https://github.com/Quisperc/home",
         },
         {
-          icon: "https://bucket.aoxc.top/picgo/sitestatus-favicon.ico",
+          icon: "https://buc.civer.cn/picgo/sitestatus-favicon.ico",
           name: "site-status",
           url: "https://github.com/Quisperc/site-status",
         },
@@ -212,14 +209,14 @@ export const themeConfig = {
     // 是否开启封面显示
     showCover: {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
-      enable: true,
+      enable: false,
       // 封面布局方式: left | right | both
       coverLayout: 'both',
       // 默认封面(随机展示)
       defaultCover: [
-        'https://bucket.aoxc.top/picgo/fimg.jpg',
-        'https://bucket.aoxc.top/picgo/fimg.jpg',
-        'https://bucket.aoxc.top/picgo/logo.jpg'
+        'https://buc.civer.cn/picgo/fimg.jpg',
+        'https://buc.civer.cn/picgo/fimg.jpg',
+        'https://buc.civer.cn/picgo/logo.jpg'
       ]
     }
   },
@@ -229,7 +226,7 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:Quisper@foxmail.top",
+        link: "mailto:Quisper@foxmail.com",
       },
       {
         icon: "github",
@@ -284,10 +281,9 @@ export const themeConfig = {
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.aoxc.top/", newTab: true },
-          { text: "在线聊天", link: "https://chat.swjcq.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.aoxc.top/rss.xml", newTab: true },
-          { text: "音乐", link: "https://meting-api.aoxc.top/", newTab: true },
+          { text: "站点状态", link: "https://status.civer.cn/", newTab: true },
+          { text: "站点订阅", link: "https://blog.civer.cn/rss.xml", newTab: true },
+          { text: "音乐", link: "https://meting-api.civer.cn/", newTab: true },
           {
             text: "反馈与建议",
             link: "https://icn0gpyxt811.feishu.cn/share/base/form/shrcngfYoPq2vtXjApboeRe4H0u",
@@ -314,7 +310,7 @@ export const themeConfig = {
     twikoo: {
       // 必填，若不想使用 CDN，可以使用 pnpm add twikoo 安装并引入
       js: "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/twikoo/1.6.39/twikoo.all.min.js",
-      envId: "https://twikoo.aoxc.top/.netlify/functions/twikoo",
+      envId: "https://twikoo.civer.cn/.netlify/functions/twikoo",
       // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
       region: "",
       lang: "zh-CN",
@@ -365,7 +361,7 @@ export const themeConfig = {
   music: {
     enable: true,
     // url
-    url: "https://meting-api.aoxc.top/api",
+    url: "https://meting-api.civer.cn/api",
     // id
     id: 14018568989,
     // netease / tencent / kugou
@@ -384,9 +380,9 @@ export const themeConfig = {
   rewardData: {
     enable: true,
     // 微信二维码
-    wechat: "https://bucket.aoxc.top/picgo/fimg.jpg",
+    wechat: "https://buc.civer.cn/picgo/fimg.jpg",
     // 支付宝二维码
-    alipay: "https://bucket.aoxc.top/picgo/fimg.jpg",
+    alipay: "https://buc.civer.cn/picgo/fimg.jpg",
   },
   // 图片灯箱
   fancybox: {
@@ -402,6 +398,8 @@ export const themeConfig = {
       "cf-friends-link",
       "upyun",
       "icp",
+      "ga",
+      "gacode",
       "author",
       "rss",
       "cc",

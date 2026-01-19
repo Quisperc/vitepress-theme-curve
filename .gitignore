@@ -23,7 +23,7 @@ test.html
 !.vitepress/theme/assets/themeConfig.mjs
 
 # 无用文章页面
-garbage/*
+garbage
 
 # 文章
 posts/*

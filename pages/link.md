@@ -23,23 +23,23 @@ import Link from "@/views/Link.vue";
 
 - 名称：`朝暮小栈`
 - 描述：`分享技术与科技生活`
-- 地址：`https://blog.aoxc.top/`
-- 头像：`https://bucket.aoxc.top/picgo/fimg.jpg`
-- 站点图片：`https://bucket.aoxc.top/picgo/aoxc-homepage.png`
-- 订阅：`https://blog.aoxc.top/rss.xml`
+- 地址：`https://blog.civer.cn/`
+- 头像：`https://buc.civer.cn/picgo/fimg.jpg`
+- 站点图片：`https://buc.civer.cn/picgo/aoxc-homepage.png`
+- 订阅：`https://blog.civer.cn/rss.xml`
 
 ```yml
 name: 朝暮小栈
 desc: 分享技术与科技生活
-url: https://blog.aoxc.top/
-avatar: https://bucket.aoxc.top/picgo/fimg.jpg
-screenshot: https://bucket.aoxc.top/picgo/aoxc-homepage.png
-rss: https://blog.aoxc.top/rss.xml
+url: https://blog.civer.cn/
+avatar: https://buc.civer.cn/picgo/fimg.jpg
+screenshot: https://buc.civer.cn/picgo/aoxc-homepage.png
+rss: https://blog.civer.cn/rss.xml
 ```
 
 ### 申请友链
 
-- 我已添加 [朝暮小栈](https://blog.aoxc.top/) 的友情链接。
+- 我已添加 [朝暮小栈](https://blog.civer.cn/) 的友情链接。
 - **请多多进行互动后再来进行友链添加**，若为首次评论直接申请友链，将不会通过。
 - 本站不添加 **采集站**、**纯搬运站点**、**论坛类站点** 等非 **个人博客** 类型的站点。
 - 站点目前可以在 **中国大陆区域** 正常访问。

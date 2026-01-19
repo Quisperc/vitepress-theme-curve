@@ -307,7 +307,7 @@ export const themeConfig = {
           { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
           {
             text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
+            link: "https://icn0gpyxt811.feishu.cn/share/base/form/shrcngfYoPq2vtXjApboeRe4H0u",
             newTab: true,
           },
         ],

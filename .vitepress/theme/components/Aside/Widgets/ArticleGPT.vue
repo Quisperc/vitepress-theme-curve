@@ -2,7 +2,8 @@
 <template>
   <div v-if="frontmatter.articleGPT" class="article-gpt s-card">
     <div class="title">
-      <span class="name" @click="router.go('/posts/2024/0218')">
+      <!-- <span class="name" @click="router.go('/posts/2024/0218')"> -->
+      <span class="name">
         <i class="iconfont icon-robot"></i>
         文章摘要
         <i class="iconfont icon-up"></i>
@@ -16,7 +17,7 @@
     <div class="meta">
       <span class="tip">此内容根据文章生成，并经过人工审核，仅用于文章内容的解释与总结</span>
       <a
-        href="https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre"
+        href="https://icn0gpyxt811.feishu.cn/share/base/form/shrcngfYoPq2vtXjApboeRe4H0u"
         class="report"
         target="_blank"
       >
